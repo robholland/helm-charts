@@ -83,7 +83,7 @@ To install Temporal with all of its dependencies run this command:
 ~/temporal-helm$ helm install temporaltest . --timeout 900s
 ```
 
-To use your own instance of ElasticSearch, MySQL. PostgreSQL, or Cassandra, please read the "Bring Your Own" sections below.
+To use your own instance of ElasticSearch, MySQL, PostgreSQL, or Cassandra, please read the "Bring Your Own" sections below.
 
 Other components (Prometheus, Kafka, Grafana) can be omitted from the installation by setting their corresponding 'enable' flag to `false` (and by pointing `server.kafka.host` to your existing instance of Kafka):
 
